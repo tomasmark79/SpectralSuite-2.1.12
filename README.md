@@ -58,6 +58,23 @@ Copy the AU and VST3 files to a `release` folder in top level repository dir.
 Build a package that can be used for installing. This will be located in
 `SpectralSuiteBuild/package/MacOS-SpectralSuite-vX.X.X.pkg`
 
+#### Linux
+##### Prerequisites
+
+All essentials for compilation and folowing list of commands and libraries.
+You have to check Linux Dependencies file unde docs folder.
+In brief enough to enter `make` under the build folders.
+
+```bash
+    sudo apt update
+    sudo apt install libasound2-dev libjack-jackd2-dev \
+        ladspa-sdk \
+        libcurl4-openssl-dev  \
+        libfreetype6-dev \
+        libx11-dev libxcomposite-dev libxcursor-dev libxcursor-dev libxext-dev libxinerama-dev libxrandr-dev libxrender-dev \
+        libwebkit2gtk-4.1-dev \
+        libglu1-mesa-dev mesa-common-dev
+```
 #### Windows 
 ##### Prerequisites
 Visual Studio 2022
@@ -67,4 +84,5 @@ Powershell
 Open Developer Powershell
 Navigate to `SpectralSuiteBuild`.
 Then run `ssutil.ps1`
+
 
