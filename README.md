@@ -33,7 +33,7 @@ NEWNAMEAudioPlugin.h	NEWNAMEProcessor.cpp	UiContainer.h
 ```
 
 ### Building plugins for release 
-Build must be performed on MacOS and Windows.
+Build must be performed on Linux, MacOS or Windows.
 
 #### MacOS
 ##### Prerequisites
