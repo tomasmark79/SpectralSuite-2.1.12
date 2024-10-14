@@ -61,9 +61,7 @@ Build a package that can be used for installing. This will be located in
 #### Linux
 ##### Prerequisites
 
-All essentials for compilation and folowing list of commands and libraries.
-You have to check Linux Dependencies file unde docs folder.
-In brief enough to enter `make` under the build folders.
+All essentials for compilation and folowing list of commands and libraries. You have to check Linux Dependencies file unde docs folder. In brief enough to enter `make` under the build folders.
 
 ```bash
     sudo apt update
@@ -75,6 +73,8 @@ In brief enough to enter `make` under the build folders.
         libwebkit2gtk-4.1-dev \
         libglu1-mesa-dev mesa-common-dev
 ```
+Configuration is ready, you can just run compilation with the `make` command under each the LinuxMake folder to reproduce all the necessary outputs such as vst3 or au files.
+
 #### Windows 
 ##### Prerequisites
 Visual Studio 2022
