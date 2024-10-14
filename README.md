@@ -61,7 +61,7 @@ Build a package that can be used for installing. This will be located in
 #### Linux
 ##### Prerequisites
 
-All essentials for compilation and folowing list of commands and libraries. You have to check Linux Dependencies file unde docs folder. In brief enough to enter `make` under the build folders.
+All essentials for compilation and folowing list of commands and libraries. You have to check Linux Dependencies file under the docs folder. In brief enough to enter `make` under the build folders.
 
 ```bash
     sudo apt update
